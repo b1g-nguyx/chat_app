@@ -1,0 +1,157 @@
+# ----------------------------
+# Miscellaneous
+# ----------------------------
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+*.tmp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ----------------------------
+# IntelliJ related
+# ----------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ----------------------------
+# Visual Studio Code related
+# ----------------------------
+.vscode/
+.history/
+
+# ----------------------------
+# Flutter / Dart / Pub related
+# ----------------------------
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+flutter_*.png
+coverage/
+generated_plugin_registrant.dart
+
+# ----------------------------
+# Symbolication & Obfuscation
+# ----------------------------
+app.*.symbols
+app.*.map.json
+
+# ----------------------------
+# Android related
+# ----------------------------
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase (Android)
+google-services.json
+
+# ----------------------------
+# iOS / Xcode related
+# ----------------------------
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vscode/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata/
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Firebase (iOS)
+GoogleService-Info.plist
+
+# ----------------------------
+# macOS related
+# ----------------------------
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/.flutter-plugins
+**/macos/.flutter-plugins-dependencies
+**/macos/build/
+
+# ----------------------------
+# Windows related
+# ----------------------------
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/ephemeral/
+/windows/build/
+/windows/.dart_tool/
+
+# ----------------------------
+# Linux related
+# ----------------------------
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/ephemeral/
+/linux/build/
+/linux/.dart_tool/
+
+# ----------------------------
+# Web related
+# ----------------------------
+**/web/manifest.json
+**/web/favicon.png
+**/web/icons/Icon-*.png
+**/web/.dart_tool/
+/web/build/
+
+# ----------------------------
+# Coverage & Reports
+# ----------------------------
+coverage/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ----------------------------
+# Misc JAR/WAR/EAR
+# ----------------------------
+*.jar
+*.war
+*.ear
+
+# ----------------------------
+# Environment files
+# ----------------------------
+.env
+.env.*
